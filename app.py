@@ -37,7 +37,7 @@ def get_exchange_rate(currency):
         return {"rate": f"エラー: {str(e)}"}
 
 # Streamlit UI
-st.title("💱チャット with GPT-4o+MCP")
+st.title("💱チャット with GPT-4o+FC")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
