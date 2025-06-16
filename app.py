@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 
 # OpenAIクライアント初期化
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets.OpenAIAPI.openai_api_key)
 
 # ツール（Function）定義
 tools = [
